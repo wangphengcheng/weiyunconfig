@@ -1,6 +1,8 @@
-server:
-  port: 8089
 spring:
-  application:
-    name: config-consumer
+  profiles:
+    active: dev
+---
+spring:
+  profiles: dev 
+  application: aaaaaaaa
   

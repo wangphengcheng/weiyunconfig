@@ -4,5 +4,13 @@ spring:
 ---
 spring:
   profiles: dev 
-  application: aaaaaaaa
-  
+  application:
+    name: aaaaaaaa
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://root:123456@www.7a118.cn:8083/eureka/
+server:
+  port: 8091  

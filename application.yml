@@ -14,4 +14,4 @@ eureka:
       defaultZone: http://root:123456@www.7a118.cn:8083/eureka/
 server:
   port: 8091
-rpc.name: wpc1 23444  wwwwwww
+rpc.name: wpc1 23444  wwwwwww ddddd

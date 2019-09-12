@@ -11,4 +11,4 @@ eureka:
     service-url:
       defaultZone: http://root:123456@localhost:8081/eureka/
 app:
-  name: 12221212121
+  name: 1222
